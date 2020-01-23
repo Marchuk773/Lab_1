@@ -13,7 +13,7 @@ public class LadderMaker {
 		System.out.println(thirdLadder.toString());
 
 		System.out.println(LadderParameters.printStaticId());
-		System.out.println(firstLadder.printField());
+		System.out.println(firstLadder.printId());
 
 		LadderParameters loopLadder = null;
 		LadderParameters arrayOfLadders[] = new LadderParameters[4];
@@ -29,8 +29,7 @@ public class LadderMaker {
 		for (LadderParameters loopIterator : arrayOfLadders) {
 			System.out.println(loopIterator.toString());
 		}
-		
-	}
-	
-}
 
+	}
+
+}
